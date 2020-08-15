@@ -1,0 +1,62 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header_nav{
+    background-color: rgba(128, 128, 128, 0.767);
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122f;
+}
+
+.navbar-brand{
+  /* padding-top: 5px; */
+
+}
+
+.navbar-brand h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 0.75;
+    text-shadow: 1px 1px 1px #222;
+    color: #000;
+}
+
+#nav-list{
+    margin-top: 10px;
+    background-color: rgba(238, 238, 238, 0.534);
+}
+
+#nav-list li{
+    border: 1px solid #000;
+}
+
+#nav-list p{
+    color: #000;
+}
+
+#nav-list li:hover{
+    background: rgba(238, 238, 238, 0.24);
+    
+}
+
+section{
+    background-color: rgba(128, 128, 128, 0.767);
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    height: 1000px;
+}
+
+section>p, section>h3{
+    color: #000;
+}
+
